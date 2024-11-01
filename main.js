@@ -64,7 +64,7 @@ function elden_beast() {
 
 function fight() {
 alert(`
-     The Elden Beast is impressed. But you are no Match. You are tattered and beaten to the point of unconciousness, but your will stands STRONG. You die standing, a true tarnished warrior indeed. The Ring wasnt meant for you after all
+     The Elden Beast is impressed. But you are no Match. You are tattered and beaten to the point of unconciousness, but your will stands STRONG. You die standing, a true tarnished warrior indeed. The Ring wasnt meant for you after all.. You are met with candy in heaven!
      `)
 }
 
