@@ -71,3 +71,9 @@ alert(`
 function cower() {
 alert(` You run away in pure fear, the Elden beast was dissapointed. The Elden beast swung its eternal sword of Light and incinertates you, making all your efforts and struggles for nothing. Be fr bro, all those bosses and u gave up? smh. You get no candy.`)
 }
+
+function menu() {
+
+
+    
+}
