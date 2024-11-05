@@ -73,7 +73,28 @@ alert(` You run away in pure fear, the Elden beast was dissapointed. The Elden b
 }
 
 function menu() {
-
-
+    let message = `Hi! Please make a selection:
+    1 - Play
+    2 - Options
+    3 - DLC
+    4 - Check for Updates
+    5 - Exit
+    `
+    let selection = Number(prompt(msg));
     
+if (selection == 1) {
+} 
+else if (selection == 2) {  
+     
+} 
+else if (selection == 3) { 
+    alert(" There are no DLC's Available. ")  
+ }  
+ else if (selection == 4) {
+    alert(" There are no Updates currently." )
+} 
+ else if (selection == 5) {
+    alert(" Ok, Cya!")
+}
+
 }
