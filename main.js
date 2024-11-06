@@ -13,6 +13,8 @@
 
 /*** Event Listeners ***/
 
+document.getElementById("fantasy_sword").addEventListener("mouseover", sword_hover)
+document.getElementById("fantasy_sword").addEventListener("mouseleave", sword_out)
 
 
 /*** Functions ***/
@@ -83,9 +85,10 @@ function menu() {
     let selection = Number(prompt(msg));
     
 if (selection == 1) {
+    play()
 } 
 else if (selection == 2) {  
-     
+     alert(" Who cares about options, right?") 
 } 
 else if (selection == 3) { 
     alert(" There are no DLC's Available. ")  
@@ -98,3 +101,15 @@ else if (selection == 3) {
 }
 
 }
+
+function play() {
+
+}
+
+function sword_hover() {
+document.getElementById("sword_info").textContent = "sword"
+}
+function sword_out() {
+    document.getElementById("sword_info").textContent = ""
+}
+

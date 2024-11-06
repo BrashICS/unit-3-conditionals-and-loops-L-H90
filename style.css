@@ -5,9 +5,32 @@
 
 /* Using font-size: larger to make things pop. Feel free to change. */
 body {
-    background-color:#ff3c00;
+    background-color:#168ae9;
     color: white;
     margin: 30px;
     font-size: x-large;
+    text-align: center;
 }
 
+#fantasy_sword {
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    width: 210px;
+    margin: 30px;
+    position: relative;
+    background-color: blueviolet;
+}
+
+
+#sword_info {
+  position: relative;
+  top: -220px;
+  left: +250px;
+  border: 4px;
+  border-color: red;
+  border-style: solid;
+  background-color: azure;
+  width: 100px;
+  color:black;
+}
