@@ -53,7 +53,7 @@ function lich_king() {
 function elden_beast() {
  
     alert(`you are met with an eternal GOD. The Elden Beast. Forever powerful, ruling the Lands in between. A tarnished of your kind is a worthy opponent. It notices your strength. You are granted a choice.`)
-    let choice_eb = prompt(`${userName}... Do you stand strong and fight or do you cower in the face of an eternal GOD?  *type 1* or 2`)
+    let choice_eb = prompt(`Do you stand strong and fight or do you cower in the face of an eternal GOD?  *type 1* or 2`)
 
     if (choice_eb == 1) {
         fight()
@@ -88,7 +88,7 @@ if (selection == 1) {
     play()
 } 
 else if (selection == 2) {  
-     alert(" Who cares about options, right?") 
+    alert(" Who cares about options, right?") 
 } 
 else if (selection == 3) { 
     alert(" There are no DLC's Available. ")  
@@ -113,3 +113,38 @@ function sword_out() {
     document.getElementById("sword_info").textContent = ""
 }
 
+function average(n) {
+    let avg = 0;
+    let count = 1;
+
+    while (count <= n) {
+        avg = avg + Number(prompt(`Please enter value ${count}/${n}`));
+        count++;
+    }
+;
+    avg = round(avg / n, 1)
+    console.log(`The average is ${avg}`);
+}
+
+function random_until (min, max, stop) {
+    if (max <= min) {
+        return -1;
+    }
+
+    if (stop > max || stop < min) {
+        return -1;
+    }
+    let aqua = randInt(min, max);
+
+    while (aqua != stop) {
+        console.log(aqua)
+        aqua =randInt(min, max);
+    }
+     return stop;
+}
+
+function string_thing () {
+let my_string = "Strings are powerful!";
+let one_char = my_string[my_string.length - 1];
+console.log(one_char);
+}
