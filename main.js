@@ -148,3 +148,26 @@ let my_string = "Strings are powerful!";
 let one_char = my_string[my_string.length - 1];
 console.log(one_char);
 }
+
+function string_flip (str) {
+  let output = "";
+  let x = str.length - 1
+  while (x >= 0) {
+    output = output + (str[x])
+  }
+}
+
+function dragons_goblins () {
+
+    let dragons = 0
+    let goblins = 0 
+
+    let i = 0
+    while (i < str.length) {
+        if (str[i] == "d") {
+            dragons = dragons + 1;
+        } else if (str[i] == "g") {
+            goblins = goblins + 1
+        }
+    }
+}
