@@ -157,7 +157,7 @@ function string_flip (str) {
   }
 }
 
-function dragons_goblins () {
+function dragons_goblins(str) {
 
     let dragons = 0
     let goblins = 0 
@@ -170,4 +170,64 @@ function dragons_goblins () {
             goblins = goblins + 1
         }
     }
+}
+
+
+function random_color() {
+    let random_color = randInt(1, 10)
+        if (random_color = 1 ) {
+            alert("red")
+        } else if (random_color = 2 ) {
+            alert("orange")
+        } else if (random_color = 3 ) {
+            alert ("yellow") 
+        }
+            else if (random_color = 4 ) {
+            alert("green") 
+        }
+            else if (random_color >= 4 ) {
+            alert("wtv, you dont get a color. im too lazy too type it out")
+        }
+    
+  }
+            
+  function build_string() {
+    let output = "";
+    let input;
+    do {
+      input = prompt("Enter a string of text or a single 'q' to quit: ");
+      output += input;
+    
+    } while (input.toLowerCase() != "q");
+  
+    return output;
+  }
+
+  function printOddNum() {
+
+
+  }
+// first try, no do while.
+function negative_only() {
+    let user_input = +(prompt("Please enter a negative number")) 
+    if (user_input >=  0 ) {
+        console.log("Try again.")
+    }  else if (user_input < 0) {
+        console.log("Thats a negative number, good job!")
+    }
+
+}
+
+function negative_only2() {
+    let input;
+    
+    do {
+        input = +prompt("please enter a negative number.")
+    } while (input > -1 || isNaN(input)) {
+        console.log(`${input}`)
+    }
+}
+
+function factorial(n) {
+   let count; 
 }
