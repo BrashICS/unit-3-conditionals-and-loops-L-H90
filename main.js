@@ -255,3 +255,27 @@ function count_down (start, stop) {
         console.log(`${x}`)
     }
 }
+
+function print_chars (str, step) {
+    for (let i = 0; i < str.length -1; i += step ){
+        console.log(str[i])
+    }
+}
+
+function sum(n) {
+let total = 0
+    for  (let i = 1; i <= n; ++1){
+        total=+ i
+    }
+}
+
+
+
+function count4 (begin, end) {
+    let sum = 0
+    for (let d = 4; d / end; 
+}
+
+function sum_divisible (n, x) {
+
+}
