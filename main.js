@@ -229,5 +229,29 @@ function negative_only2() {
 }
 
 function factorial(n) {
-   let count; 
+    let product = 1;
+    let count = 1;
+   do {
+    product *= count;
+    count++;
+   } while (count <= n)
+
+    console.log(`${product}`)
+   
+}
+
+
+
+function count_up (start, stop) {
+
+    for (let x =start; x <= stop; ++x) {
+        console.log(`${x}`)
+    }
+
+}
+
+function count_down (start, stop) {
+    for (let x = start; x>= stop; --x) {
+        console.log(`${x}`)
+    }
 }
