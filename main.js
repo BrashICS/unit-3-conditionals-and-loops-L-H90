@@ -265,22 +265,44 @@ function print_chars (str, step) {
 function sum(n) {
     let total = 0;
     for (let i = 1; i <= n; i++) {
-        total += i;
+        total = total + i;
     }
     return total;
 }
 
 
 function count4(begin, end) {
+     
+}
+function sum_divisible (n, x) {
     let sum = 0;
-    for (let d = begin; d <= end; d++) {
-        if (d % 4 === 0) {
-            sum += d;
+    for (let i = x; i <= n ; i+= x) {
+            sum += i;
         }
-    }
     return sum;
 }
 
-function sum_divisible (n, x) {
-
+function divisble(num, den) {
+    if (num % den == 0) {
+        return true;
+    } else {
+        return false;
+    }
 }
+
+
+function test(n) {
+    if (n == 0) {
+        return 1;
+    }
+
+    let current_value = 1;
+    let product = 1;
+
+    while (current_value <= n) {
+        product *= current_value
+        current_value++;
+    }
+    return product;
+}
+ 
