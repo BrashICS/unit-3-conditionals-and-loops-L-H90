@@ -263,17 +263,22 @@ function print_chars (str, step) {
 }
 
 function sum(n) {
-let total = 0
-    for  (let i = 1; i <= n; ++1){
-        total=+ i
+    let total = 0;
+    for (let i = 1; i <= n; i++) {
+        total += i;
     }
+    return total;
 }
 
 
-
-function count4 (begin, end) {
-    let sum = 0
-    for (let d = 4; d / end; 
+function count4(begin, end) {
+    let sum = 0;
+    for (let d = begin; d <= end; d++) {
+        if (d % 4 === 0) {
+            sum += d;
+        }
+    }
+    return sum;
 }
 
 function sum_divisible (n, x) {
