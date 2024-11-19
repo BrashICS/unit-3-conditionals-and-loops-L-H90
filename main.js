@@ -273,9 +273,9 @@ function sum(n) {
 // it only returned begin. 
 function count4(begin, end) {
      let how_many = 0;
-     for () {
-
-     }
+     for (let i = begin; i <= end; how_many+= 4 ) {
+        let how_many = how_many + i
+     } return how_many;
     }
     
 
