@@ -272,17 +272,13 @@ function sum(n) {
 
 // it only returned begin. 
 function count4(begin, end) {
-     let how_many = 0
-     for (let i = begin; i <= end; i+=how_many) {
-        
-     }
-}
+     let how_many = 0;
+     for () {
 
-function count_4(begin, end) {
-    let how_many = 0;
+     }
+    }
     
-   
-}
+
 
 
 function sum_divisible (n, x) {
