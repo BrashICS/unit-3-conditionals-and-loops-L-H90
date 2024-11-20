@@ -284,11 +284,16 @@ function count4(begin, end) {
 
 
 function sum_divisible (n, x) {
-    let sum = 0;
-    for (let i = x; i <= n ; i+= x) {
-            sum += i;
+   let sum = 0
+   let landon = 0
+   for (let i = 0; i < n; i++ ) {
+    if ( i % x == 0) {
+      sum += x
+      landon += i
+      console.log(`${sum}`)
         }
-    return sum;
+        console.log(landon)
+    }
 }
 
 function divisble(num, den) {
