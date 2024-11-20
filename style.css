@@ -1,27 +1,36 @@
 /*
-  style.css
+  style.css 
   Feel free to change this CSS for your own purposes
 */
 
 /* Using font-size: larger to make things pop. Feel free to change. */
 body {
-    background-color:#36013F;
+    background-color:#168ae9;
     color: white;
     margin: 30px;
     font-size: x-large;
+    text-align: center;
 }
 
-h1 {
-    margin-bottom: 0;
-    margin-left: 120px;
+#fantasy_sword {
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    width: 210px;
+    margin: 30px;
+    position: relative;
+    background-color: blueviolet;
 }
 
-h6 {
-    margin-top: 10px;
-    margin-left: 120px;
-}
 
-h3 {
-    text-decoration: underline;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#sword_info {
+  position: relative;
+  top: -220px;
+  left: +250px;
+  border: 4px;
+  border-color: red;
+  border-style: solid;
+  background-color: azure;
+  width: 100px;
+  color:black;
 }
