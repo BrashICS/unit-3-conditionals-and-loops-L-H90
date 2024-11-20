@@ -270,12 +270,12 @@ function sum(n) {
     return total;
 }
 
-// it only returned begin. 
+
 function count4(begin, end) {
      let how_many = 0;
      for (let i = begin; i <= end; i++ ) {
         if ( i % 4 == 0 ) {
-            how_many += i
+            how_many += 1
             console.log(`${how_many}`)
         }
      } 
